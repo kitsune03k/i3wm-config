@@ -141,9 +141,12 @@ Global settings
 
 ## 7. FAQ
 
+Q. 컴퓨터를 어떻게 끄나요\
+A. ```sudo shutdown now```, 재부팅은 ```sudo reboot```
+
 Q. 유선랜/무선랜 설정이 안되요\
 A. ```sudo vi /etc/NetworkManager/NetworkManager.conf```에서\
-```[ifupdown] managed=false```에서 ```true```로 수정하세요
+```[ifupdown] managed=false```에서 ```true```로 수정하세요 (**데비안계열만 해당**)
 
 Q. 인터넷 연결 자체가 안되요\
 A. 인텔 랜카드 쓰세요, 다른 제조사는 system-specific한 문제라서 혼자 삽질하는거 말고는 답없습니다
