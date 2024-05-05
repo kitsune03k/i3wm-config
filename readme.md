@@ -137,3 +137,17 @@ Global settings
 - Enable input method toggle by hot keys: 체크 해제
 
 ```$Mod+Shift+e```로 i3종료 후 다시 ```startx```하면 정상적으로 한글 입력이 된다
+
+## 7. FAQ
+
+Q. 유선랜 연결이 안되요\
+A. ```sudo vi /etc/NetworkManager/NetworkManager.conf```에서\
+```[ifupdown] managed=false```에서 ```true```로 수정
+
+Q. 무선랜 설정이 안되요\
+A. 인텔 랜카드 쓰세요, 다른 제조사는 system-specific한 문제라서 혼자 삽질하는거 말고는 답없습니다
+
+Q. 프로그램을 켜기가 힘들어요\
+A. 프로그램명을 외우세요\
+ex) 탐색기 - ```nautilus```, 웹브라우저 - ```firefox-esr```,\
+ide - ```ide명(젯브는 걍 clion, pycharm 이런식으로 치면 됨)```
