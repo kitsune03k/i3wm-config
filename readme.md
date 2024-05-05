@@ -4,7 +4,7 @@
 
 **DESKTOP ENVIRONMENT = BLOATWARE**
 
-개인적인 목적의 i3wm 설정 가이드
+개인적인 i3wm 설정 가이드
 
 환경: Debian 12 "Bookworm"
 
