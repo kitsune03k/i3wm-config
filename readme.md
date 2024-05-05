@@ -128,7 +128,7 @@ Mod 키?: 본인 편한대로
 ```im-config```에서\
 OK -> Yes -> uim 선택 -> OK -> OK
 
-```uim-pref-qt5```에서(gtk, gtk3, qt 원하는거중에 고르면 됨)
+```uim-pref-qt5```에서(gtk, gtk3, qt5 원하는거중에 고르면 됨)
 
 Global settings
 - specify default IM: 체크
