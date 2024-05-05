@@ -57,9 +57,10 @@ Xft.dpi: 120
 
 원한다면 kde, xfce를 설치하고 똑같이 desktop environment 관련 패키지만 날려주면 된다
 
-## 4. i3 config
+## 4. config
 
-git clone든, wget이든 파일을 받아 "config"으로 이름을 바꾼 뒤, ~/.config/i3 에 저장\
+git clone든, wget이든 "i3config(rename to config) 파일을 받아\
+ "config"으로 이름을 바꾼 뒤, ~/.config/i3 에 저장\
 (파일이 ~/.config/i3/config으로 존재해야 한다)
 
 아래부터는 커스텀 가이드, 커스텀 하는 법 관심 없으면 [**다음으로 진행**](https://github.com/kitsune03k/i3wm-config?tab=readme-ov-file#5-startx)
