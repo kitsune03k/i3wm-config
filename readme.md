@@ -63,7 +63,7 @@ git clone든, wget이든 "i3config(rename to config) 파일을 받아\
  "config"으로 이름을 바꾼 뒤, ~/.config/i3 에 저장\
 (파일이 ~/.config/i3/config으로 존재해야 한다)
 
-아래부터는 커스텀 가이드, 커스텀 하는 법 관심 없으면 [**다음으로 진행**](https://github.com/kitsune03k/i3wm-config?tab=readme-ov-file#5-startx)
+아래부터는 커스텀 가이드, 관심 없으면 [**다음으로 진행**](https://github.com/kitsune03k/i3wm-config?tab=readme-ov-file#5-startx)
 ___
 
 일단 올린 i3config(rename to config)파일을 기준으로 설명하겠다
