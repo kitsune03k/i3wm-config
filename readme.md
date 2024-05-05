@@ -1,5 +1,7 @@
 # i3wm-config
 
+![](https://raw.githubusercontent.com/kitsune03k/i3wm-config/main/2024-05-06_08.42.17.png)
+
 **DESKTOP ENVIRONMENT = BLOATWARE**
 
 개인적인 i3wm 설정 가이드
