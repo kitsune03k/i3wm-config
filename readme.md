@@ -53,7 +53,7 @@ Xft.dpi: 120
 > fonts-nanum: 한글 표시를 위한 나눔 폰트\
 > uim, uim-byeoru: 한글 입력
 
-지금까지 gnome2-mate를 써왔음에도 불구하고, gnome3을 설치하는 이유는 그냥 단순히 user program 수가 제일 많기 때문이다
+지금까지 gnome2 -> mate를 써왔음에도 불구하고 gnome3을 설치하는 이유는 그냥 단순히 user program 수가 제일 많기 때문이다, 좋아서 쓰는게 아님
 
 원한다면 kde, xfce를 설치하고 똑같이 desktop environment 관련 패키지만 날려주면 된다
 
