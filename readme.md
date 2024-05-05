@@ -142,12 +142,12 @@ Global settings
 
 Q. 유선랜 연결이 안되요\
 A. ```sudo vi /etc/NetworkManager/NetworkManager.conf```에서\
-```[ifupdown] managed=false```에서 ```true```로 수정
+```[ifupdown] managed=false```에서 ```true```로 수정하세요
 
 Q. 무선랜 설정이 안되요\
 A. 인텔 랜카드 쓰세요, 다른 제조사는 system-specific한 문제라서 혼자 삽질하는거 말고는 답없습니다
 
 Q. 프로그램을 켜기가 힘들어요\
 A. 프로그램명을 외우세요\
-ex) 탐색기 - ```nautilus```, 웹브라우저 - ```firefox-esr```,\
+ex) 탐색기 - ```nautilus```, 웹브라우저 - ```firefox-esr```, 설정 - ```gnome-control-center```,\
 ide - ```ide명(젯브는 걍 clion, pycharm 이런식으로 치면 됨)```
