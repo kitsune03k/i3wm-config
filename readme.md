@@ -57,7 +57,7 @@ Xft.dpi: 120
 
 ## 4. i3 config
 
-파일을 받아 "config"으로 이름을 바꾼 뒤, ~/.config/i3 에 저장\
+git clone든, wget이든 파일을 받아 "config"으로 이름을 바꾼 뒤, ~/.config/i3 에 저장\
 (파일이 ~/.config/i3/config으로 존재해야 한다)
 
 아래부터는 커스텀 가이드, 관심 없으면 다음으로 진행
