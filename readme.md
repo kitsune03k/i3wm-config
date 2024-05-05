@@ -1,7 +1,5 @@
 # i3wm-config
 
-![](https://raw.githubusercontent.com/kitsune03k/i3wm-config/main/2024-05-06_07.52.55.png)
-
 **DESKTOP ENVIRONMENT = BLOATWARE**
 
 개인적인 i3wm 설정 가이드
@@ -140,11 +138,11 @@ Global settings
 
 ## 7. FAQ
 
-Q. 유선랜 연결이 안되요\
+Q. 유선랜/무선랜 설정이 안되요\
 A. ```sudo vi /etc/NetworkManager/NetworkManager.conf```에서\
 ```[ifupdown] managed=false```에서 ```true```로 수정하세요
 
-Q. 무선랜 설정이 안되요\
+Q. 인터넷 연결 자체가 안되요\
 A. 인텔 랜카드 쓰세요, 다른 제조사는 system-specific한 문제라서 혼자 삽질하는거 말고는 답없습니다
 
 Q. 프로그램을 켜기가 힘들어요\
