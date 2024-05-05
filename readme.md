@@ -1,12 +1,14 @@
 # i3wm-config
 
+![](https://raw.githubusercontent.com/kitsune03k/i3wm-config/main/2024-05-06_07.52.55.png)
+
 **DESKTOP ENVIRONMENT = BLOATWARE**
 
 개인적인 목적의 i3wm 설정 가이드
 
 환경: Debian 12 "Bookworm"
 
-기본적인 i3 조작법은 [**공식 문서**](https://i3wm.org/docs/userguide.html#_default_keybindings)를 참고\
+기본적인 i3 조작법은 [**요약된 공식문서**](https://i3wm.org/docs/userguide.html#_default_keybindings)를 참고\
 **꼭 읽어야 이후의 내용을 이해할 수 있다**
 
 ## 1. 데비안 설치시
@@ -60,7 +62,7 @@ Xft.dpi: 120
 git clone든, wget이든 파일을 받아 "config"으로 이름을 바꾼 뒤, ~/.config/i3 에 저장\
 (파일이 ~/.config/i3/config으로 존재해야 한다)
 
-아래부터는 커스텀 가이드, 관심 없으면 다음으로 진행
+아래부터는 커스텀 가이드, 커스텀 하는 법 관심 없으면 [**다음으로 진행**](https://github.com/kitsune03k/i3wm-config?tab=readme-ov-file#5-startx)
 ___
 
 일단 올린 i3config(rename to config)파일을 기준으로 설명하겠다
