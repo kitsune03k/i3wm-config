@@ -59,7 +59,7 @@ Xft.dpi: 120
 
 ## 4. config
 
-git clone든, wget이든 "i3config(rename to config) 파일을 받아\
+git clone든, wget이든 i3config(rename to config) 파일을 받아\
  "config"으로 이름을 바꾼 뒤, ~/.config/i3 에 저장\
 (파일이 ~/.config/i3/config으로 존재해야 한다)
 
