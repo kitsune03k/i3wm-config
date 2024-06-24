@@ -41,9 +41,9 @@ Xft.dpi: 120
 
 
 ## 3. 필요 패키지 설치
-1. ```sudo apt install gnome```: 일단 gnome3 full 설치
+1. ```sudo apt install gnome-core```: 일단 gnome3 최소 설치
 
-2. ```sudo apt remove gnome-shell*```: gnome3중 DE 관련 패키지 제거
+2. ```sudo apt remove gnome-shell```: i3를 사용할 것이기에 gnome3-shell 제거
 
 3. ```sudo apt install gnome-tweaks pulseaudio brigntnessctl maim fonts-nanum* uim uim-byeoru```: 필요 패키지 설치
 > gnome-tweaks: gnome 트윅\
