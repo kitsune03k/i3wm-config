@@ -40,12 +40,20 @@ Xft.dpi: 120
 > 150% = 168
 
 
-## 3. i3 패키지 설치
+## 3. i3 설치
 1. ```sudo apt install gnome-core```: 일단 gnome3 최소 설치
+
+지금까지 gnome2 -> mate를 써왔음에도 불구하고 gnome3을 설치하는 이유는 그냥 단순히 user program 수가 제일 많기 때문이다, 좋아서 쓰는게 아님
+
+원한다면 kde, xfce를 설치하고 똑같이 desktop environment 관련 패키지만 날려주면 된다
 
 2. ```sudo apt remove gnome-shell```: i3를 사용할 것이기에 gnome3-shell 제거
 
-3. ```sudo apt install xorg i3 gnome-tweaks pulseaudio brigntnessctl maim fonts-nanum* uim uim-byeoru```: 필요 패키지 설치
+3. ```sudo apt install xorg i3 ```
+
+
+## 4. 필요 패키지 설치
+```sudo apt install gnome-tweaks pulseaudio brigntnessctl maim fonts-nanum* uim uim-byeoru```: 필요 패키지 설치
 > gnome-tweaks: gnome 트윅\
 > pulseaudio: 볼륨 조절\
 > brightnessctl: 백라이트 조절\
@@ -53,11 +61,8 @@ Xft.dpi: 120
 > fonts-nanum: 한글 표시를 위한 나눔 폰트\
 > uim, uim-byeoru: 한글 입력
 
-지금까지 gnome2 -> mate를 써왔음에도 불구하고 gnome3을 설치하는 이유는 그냥 단순히 user program 수가 제일 많기 때문이다, 좋아서 쓰는게 아님
 
-원한다면 kde, xfce를 설치하고 똑같이 desktop environment 관련 패키지만 날려주면 된다
-
-## 4. config
+## 5. config
 
 git clone든, wget이든 i3config(rename to config) 파일을 받아\
  "config"으로 이름을 바꾼 뒤, ~/.config/i3 에 저장\
@@ -113,7 +118,7 @@ vi 이동에서 오른쪽으로 한칸씩 밀어놓은거는 어떤 골 빈 인�
 현재 유저의 Pictures 폴더에 YYYY-MM-DD_HH.MM.SS 형식으로 스크린샷 저장:\
 ```bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date +"%Y-%m-%d_%H.%M.%S").png"```
 
-## 5. startx
+## 6. startx
 
 드디어!! ```startx```로 X Window 시작
 
@@ -122,7 +127,7 @@ Mod 키?: 본인 편한대로
 
 >노트북이면 Alt가, 데스크탑이면 Super(윈도우)키가 편할 것이다
 
-## 6. 한글입력 설정
+## 7. 한글입력 설정
 
 리눅스에는 ibus, fcitx등의 한글을 지원하는 입력기가 있으나, 경험상 uim + uim-byeoru가 제일 나았다
 
@@ -139,7 +144,7 @@ Global settings
 
 ```$Mod+Shift+e```로 i3종료 후 다시 ```startx```하면 정상적으로 한글 입력이 된다
 
-## 7. FAQ
+## 8. FAQ
 
 Q. 컴퓨터를 어떻게 끄나요\
 A. ```sudo shutdown now```, 재부팅은 ```sudo reboot```
