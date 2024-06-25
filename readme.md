@@ -43,8 +43,8 @@ Xft.dpi: 120
 ## 3. i3 설치
 1. ```sudo apt install gnome-core```: 일단 gnome3 최소 설치
 
-지금까지 gnome2 -> mate를 써왔음에도 불구하고 gnome3을 설치하는 이유는 그냥 단순히 user program 수가 제일 많기 때문이다, 좋아서 쓰는게 아님
-
+지금까지 gnome2 -> mate를 써왔음에도 불구하고 gnome3을 설치하는 이유는\
+: 그냥 단순히 user program 수가 제일 많기 때문이다, 좋아서 쓰는게 아님;;\
 원한다면 kde, xfce를 설치하고 똑같이 desktop environment 관련 패키지만 날려주면 된다
 
 2. ```sudo apt remove gnome-shell```: i3를 사용할 것이기에 gnome3-shell 제거
@@ -62,9 +62,20 @@ Xft.dpi: 120
 > uim, uim-byeoru: 한글 입력
 
 
-## 5. config
+## 5. startx
 
-git clone든, wget이든 i3config(rename to config) 파일을 받아\
+드디어!! ```startx```로 X Window 시작
+
+키 커스텀?: Yes\
+Mod 키?: 본인 편한대로
+
+>노트북이면 Alt가, 데스크탑이면 Super(윈도우)키가 편할 것이다
+
+
+## 6. config
+
+Alt + D로 firefox 입력 후 실행 하여 본 레포에서 i3config(rename to config) 파일을 받아
+
  "config"으로 이름을 바꾼 뒤, ~/.config/i3 에 저장\
 (파일이 ~/.config/i3/config으로 존재해야 한다)
 
@@ -118,14 +129,7 @@ vi 이동에서 오른쪽으로 한칸씩 밀어놓은거는 어떤 골 빈 인�
 현재 유저의 Pictures 폴더에 YYYY-MM-DD_HH.MM.SS 형식으로 스크린샷 저장:\
 ```bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date +"%Y-%m-%d_%H.%M.%S").png"```
 
-## 6. startx
 
-드디어!! ```startx```로 X Window 시작
-
-키 커스텀?: Yes\
-Mod 키?: 본인 편한대로
-
->노트북이면 Alt가, 데스크탑이면 Super(윈도우)키가 편할 것이다
 
 ## 7. 한글입력 설정
 
@@ -149,12 +153,9 @@ Global settings
 Q. 컴퓨터를 어떻게 끄나요\
 A. ```sudo shutdown now```, 재부팅은 ```sudo reboot```
 
-Q. 유선랜/무선랜 설정이 안되요\
-A. ```sudo vi /etc/NetworkManager/NetworkManager.conf```에서\
-```[ifupdown] managed=false```에서 ```true```로 수정하세요 (**데비안계열만 해당**)
-
-Q. 인터넷 연결 자체가 안되요\
-A. 인텔 랜카드 쓰세요, 다른 제조사는 system-specific한 문제라서 혼자 삽질하는거 말고는 답없습니다
+Q. 인터넷 연결 자체가 안되요 (유선랜/무선랜 설정이 안되요)\
+A. 인텔 / 퀄컴 아데로스 랜카드 쓰세요\
+다른 제조사는 system-specific한 문제라서 혼자 삽질하는거 말고는 답없습니다
 
 Q. 프로그램을 켜기가 힘들어요\
 A. 프로그램명을 외우세요\
