@@ -26,7 +26,7 @@
 그 외 DE는 매끄럽게 되는게 단 하나도 없다 (전부 다 해봄)
 
 ```
-sudo apt install xorg i3 vim
+sudo apt install vim
 vi ~/.Xresources
 ```
 
@@ -40,12 +40,12 @@ Xft.dpi: 120
 > 150% = 168
 
 
-## 3. 필요 패키지 설치
+## 3. i3 패키지 설치
 1. ```sudo apt install gnome-core```: 일단 gnome3 최소 설치
 
 2. ```sudo apt remove gnome-shell```: i3를 사용할 것이기에 gnome3-shell 제거
 
-3. ```sudo apt install gnome-tweaks pulseaudio brigntnessctl maim fonts-nanum* uim uim-byeoru```: 필요 패키지 설치
+3. ```sudo apt install xorg i3 gnome-tweaks pulseaudio brigntnessctl maim fonts-nanum* uim uim-byeoru```: 필요 패키지 설치
 > gnome-tweaks: gnome 트윅\
 > pulseaudio: 볼륨 조절\
 > brightnessctl: 백라이트 조절\
